@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.parallax {
+    width: 100%;
+    height: 100vh;
+    background: url(slika.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.fa-html5 {
+    color: red;
+}
+
+.fa-css3-alt {
+    color: orange;
+}
+
+.fa-js {
+    color: yellow;
+}
+
+.fa-php {
+    color: purple;
+}
+
+.footer {
+    background-color: black;
+}
