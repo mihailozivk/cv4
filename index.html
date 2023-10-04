@@ -6,14 +6,15 @@
     <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <link rel="stylesheet" type="text/css" href="css/all.min.css">
+    <link rel="stylesheet" type="text/css" href="css/animate.min.css">
     <script type="text/javascript" src="js/code.jquery.com_jquery-3.7.1.min.js"></script>
     <script type="text/javascript" src="js/bootstrap.min.js"></script>
     <title>Moj sajt bootstrap</title>
 </head>
 <body>
     
-    <nav class="navbar bg-dark text-secondary navbar-expand-lg">
-        <a class="navbar-brand text-secondary col-9" href="#" id="id">Mihailo Zivkovic</a>
+    <nav class="navbar bg-dark text-secondary navbar-expand-lg fixed-top">
+        <a class="navbar-brand text-secondary col-4" href="#" id="id">Mihailo Zivkovic</a>
 
         <button class="navbar-toggler navbar-dark" type="button" data-bs-toggle="collapse" data-bs-target="#lista">
             <span class="navbar-toggler-icon"></span>
@@ -31,9 +32,10 @@
     </nav>
 
     <div class="parallax d-flex justify-content-center aligin-items-center m-0">
-        <div class="text-light d-flex flex-column aligin-items-center justify-content-center">
-            <p class="fs-2 mb-0">Mihailo Zivkovic</p>
-            <p>programer</p></div>
+        <div class="text-light d-flex flex-column aligin-items-center justify-content-center animate__animated animate__fadeInDown text-center">
+            <p class="fs-2 mb-0">Zdravo!</p>
+            <p>Dobrodosli na moj sajt.</p>
+        </div>
     </div>
 
     <div class="bg-dark text-secondary p-2">
@@ -55,6 +57,33 @@
             <i class="fab fa-php p-2"></i>
         </a>
     </div>
+
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="css/slika1.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="css/slika2.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="css/slika3.jpg" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
 
     <footer class="footer d-flex justify-content-center"><p class="text-secondary pb-0 mb-0">All rights reserved</p></footer>
     
