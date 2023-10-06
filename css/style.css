@@ -12,22 +12,31 @@
 .fa-html5 {
     color: red;
 }
+.fa-html5:hover {
+    color: rgb(159, 0, 0)
+}
 
 .fa-css3-alt {
     color: orange;
+}
+.fa-css3-alt:hover {
+    color: rgb(155, 101, 0);
 }
 
 .fa-js {
     color: yellow;
 }
+.fa-js:hover {
+    color: rgb(163, 163, 0);
+}
 
 .fa-php {
     color: purple;
 }
-
-.footer {
-    background-color: black;
+.fa-php:hover {
+    color: rgb(84, 0, 84);
 }
+
 
 #id {
     margin-left: 1rem;
@@ -35,4 +44,38 @@
 
 #lista {
     padding-left: 1.5rem;
+}
+.providniDiv {
+    background-color: rgba(221, 221, 221, 0.164);
+    border-radius: 2%;
+    border:3px solid rgba(198, 198, 198, 0.397);
+}
+
+.task-text {
+    padding: 5px;
+    outline: none;
+    border: none;
+    border-radius: 5%;
+    box-shadow: inset 0 0 0 3px rgba(22, 22, 22, 0.584);
+}
+      
+.task-text:hover {
+    box-shadow: inset 0 0 0 2px rgba(245, 245, 245, 0.354);
+ }
+
+.as {
+    outline: none;
+    border: none;
+}
+
+textarea {
+    padding: 5px;
+    outline: none;
+    border-radius: 4%;
+    border: none;
+    box-shadow: inset 0 0 0 3px rgba(22, 22, 22, 0.584);
+}
+
+textarea:hover {
+    box-shadow: inset 0 0 0 2px rgba(245, 245, 245, 0.354);
 }
